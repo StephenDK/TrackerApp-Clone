@@ -151,22 +151,22 @@ exports.isAuthenticated = asyncHandler(async (req, res, next) => {
   }
 });
 
-// exports.backDoorRegister = asyncHandler(async (req, res, next) => {
-//   let { name, email, password } = req.body;
+exports.backDoorRegister = asyncHandler(async (req, res, next) => {
+  let { name, email, password } = req.body;
 
-//   let user = await User.create({
-//     name,
-//     email,
-//     password,
-//   });
+  let user = await User.create({
+    name,
+    email,
+    password,
+  });
 
-//   console.log(user);
+  console.log(user);
 
-//   res.status(200).json({
-//     success: true,
-//     user,
-//   });
-// });
+  res.status(200).json({
+    success: true,
+    user,
+  });
+});
 
 // @desc    Forgot Password Email User
 // @route

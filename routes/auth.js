@@ -21,7 +21,7 @@ router.route("/isauth").post(isAuthenticated);
 // router.route("/register/email").post(registerEmail);
 router.route("/register/email/:id").post(sendGeneratedURL);
 
-// router.route("/register/email/backdoor/newuser").post(backDoorRegister);
+router.route("/register/email/backdoor/newuser").post(backDoorRegister);
 //   router
 //     .route('/update/entry/:id')
 //     .put(updateInventoryItem)
