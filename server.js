@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
 // const pdflib = require("pdf-lib");
-
+const path = require("path");
 // Load environment variables
 dotenv.config({ path: "./config/config.env" });
 
@@ -68,12 +68,10 @@ app.use("/api/v1/documents", documents);
 app.use(errorHandler);
 
 if (process.env.NODE_ENV === "production") {
-  // Express will serve production assets
-  // like our main.js file, or main.css file
-  app.use(express.static("client/build"));
-  // Express will serve up the index.html file
-  // if it doesent recognize the route
-  const path = require("path");
+  // Serve static assets from client/build
+  app.use(express.static(path.join(__dirname, "client/build")));
+
+  // Serve index.html for unrecognized routes
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
   });
