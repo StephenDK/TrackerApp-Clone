@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Cable"
+  },
+  {
+    "type": "Charger"
+  },
+  {
+    "type": "Barcode Scanner"
+  },
+  {
+    "type": "Battery Pack"
+  },
+  {
+    "type": "Headset"
+  },
+  {
+    "type": "Keyboard"
+  },
+  {
+    "type": "Mouse"
+  },
+  {
+    "type": "Phone Case"
+  },
+  {
+    "type": "Projector"
+  },
+  {
+    "type": "Webcam"
+  }
+]

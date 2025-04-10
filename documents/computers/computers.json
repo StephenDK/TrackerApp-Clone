@@ -1,0 +1,90 @@
+[
+  {
+    "model": "Surface Pro 6",
+    "make": "Microsoft"
+  },
+  {
+    "model": "Surface Pro 9",
+    "make": "Microsoft"
+  },
+  {
+    "model": "Aspire",
+    "make": "ASUS"
+  },
+  {
+    "model": "EliteBook 840 G3",
+    "make": "HP"
+  },
+  {
+    "model": "EliteBook 840 G4",
+    "make": "HP"
+  },
+  {
+    "model": "EliteBook 840 G5",
+    "make": "HP"
+  },
+  {
+    "model": "EliteBook 840 G6",
+    "make": "HP"
+  },
+  {
+    "model": "EliteBook 840 G8",
+    "make": "HP"
+  },
+   {
+    "model": "EliteBook 850 G7",
+    "make": "HP"
+  },
+  {
+    "model": "EliteBook Folio 9480m",
+    "make": "HP"
+  },
+  {
+    "model": "EliteDesk 800 G3 Mini",
+    "make": "HP"
+  },
+  {
+    "model": "EliteBook x360 1030 G4",
+    "make": "HP"
+  },
+   {
+    "model": "EliteBook x360 1030 G3",
+    "make": "HP"
+  },
+  {
+    "model": "EliteBook x360 1030 G2",
+    "make": "HP"
+  },
+  {
+    "model": "EliteDesk 800 G4",
+    "make": "HP"
+  },
+  {
+    "model": "EliteDesk 800 G6",
+    "make": "HP"
+  },
+  {
+    "model": "EliteDesk 800 G2",
+    "make": "HP"
+  },
+  {
+    "model": "EliteBook Folio 9470m",
+    "make": "HP"
+  },
+  {
+    "model": "Elitebook Revolve 810",
+    "make": "HP"
+  },
+  {
+    "model": "Elite X2",
+    "make": "HP"
+  },
+  {
+    "model": "ATIV Smart PC 500T",
+    "make": "Samsung"
+  },
+  {
+    "model": "iPad 6th Generation",
+    "make": "Apple"
+  }
+]

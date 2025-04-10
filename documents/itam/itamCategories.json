@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Desktop"
+  },
+  {
+    "type": "Laptop"
+  },
+  {
+    "type": "Monitor"
+  },
+  {
+    "type": "DockingStation"
+  },
+  {
+    "type": "Cell Phone"
+  }
+]
