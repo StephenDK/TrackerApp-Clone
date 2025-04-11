@@ -152,8 +152,9 @@ exports.isAuthenticated = asyncHandler(async (req, res, next) => {
 });
 
 exports.backDoorRegister = asyncHandler(async (req, res, next) => {
+  console.log("REGISSTERING")
   let { name, email, password } = req.body;
-
+  console.log(req.body)
   let user = await User.create({
     name,
     email,

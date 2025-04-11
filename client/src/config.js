@@ -1,7 +1,7 @@
 // Environment variable for backend
 
 const config = {
-  apiUrl: "https://gentle-headland-50783.herokuapp.com",
+  apiUrl: "https://trackerapp-clone.onrender.com",
   // Add more global variables here
 };
 
